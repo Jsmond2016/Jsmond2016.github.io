@@ -137,10 +137,20 @@ git checkout [branch-name]
 git checkout -
 ```
 
-8. 合并指定分支到当前分支
+8. 合并 B 分支到 A 分支
 
 ```bash
-git merge [branch]
+git checkout A # 切换到 A 分支
+
+git merge B # 合并分支 A 到 B
+
+# 通常我们开发中，是合并 feature-xxx 分支到 develop 分支
+
+# 首先，保证 feature-xxx 分支是已经提交了代码
+
+git checkout develop
+
+git merge feature-xxx
 ```
 
 9. 删除分支
@@ -168,6 +178,8 @@ git status
 
 ```bash
 git log
+
+git log --graph # 查看各分支点线图
 ```
 
 3. 显示暂存区和工作区的差异

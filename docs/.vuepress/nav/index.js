@@ -33,11 +33,15 @@ module.exports = [
       },
       {
         text: 'Node.js',
-        link: '/blog/nodejs/'
+        link: '/blog/node/'
       },
       {
         text: 'other',
-        link: '/blog/other/'
+        link: '/blog/others/'
+      }, 
+      {
+        text: 'work',
+        link: '/blog/work/'
       },     
     ]
   },

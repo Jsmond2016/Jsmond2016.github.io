@@ -47,7 +47,10 @@ module.exports = {
       '/blog/others/': require('../blog/others/sideBar'),
 
       // project
-      '/blog/project/': require('../blog/project/sideBar')
+      '/blog/project/': require('../blog/project/sideBar'),
+
+       // work
+       '/blog/work/': require('../blog/work/sideBar')
     },
 
     // 博客设置
