@@ -1,5 +1,5 @@
 ---
-title: js面向对象--原型(Prototype)和原型链
+title: 原型和原型链
 date: 2018-04-23 17:08:42
 copyright: true
 comments: true

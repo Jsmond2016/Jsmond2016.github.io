@@ -1,14 +1,29 @@
 module.exports = [
 	 {
-      title: 'es-5',
+      title: 'es5',
       collapsable: true,
       children: [
         'es5/js原型和原型链',
-        'es5/this-的学习',
+        'es5/this的学习',
         'es5/事件委托',
         'es5/全局变量可耻和立即执行函数',
         'es5/异步与回调的理解',
-        'es5/数组的API'
+        'es5/数组常用操作',
+        'es5/字符串方法和对象方法操作'
+      ]
+    },
+    {
+      title: 'es6',
+      collapsable: true,
+      children: [
+        '',
+      ]
+    },
+    {
+      title: 'typescript',
+      collapsable: true,
+      children: [
+        'typeScript/typescript',
       ]
     },
     {

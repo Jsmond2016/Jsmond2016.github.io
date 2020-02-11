@@ -1,6 +1,6 @@
 module.exports = [
 	 {
-      title: 'react基础学习',
+      title: 'react基础',
       collapsable: true,
       children: [
         'base/01-React开发环境的搭建',

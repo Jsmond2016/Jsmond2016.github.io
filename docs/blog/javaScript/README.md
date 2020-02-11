@@ -1,20 +1,26 @@
 # javaScript-study
 
-本专栏主要介绍 git 的原理，基本使用，高阶使用，以及其他 git 小知识
+> 详细内容参考： [现代 JavaScript 教程](https://zh.javascript.info/)
 
-文章开头的 `yml` 基本配置
+JavaScript 内容主要为几个部分
 
-```yml
----
-title: git-study
-date: 2018-03-28 22:57:32
-copyright: true
-comments: true
-post: true
-categories:
-- git
-tags:
-- git
----
-```
+- es5
+- es6
+- typeScript
+
+其中，es5 的重点内容为：
+
+- 原型和原型链
+- 闭包
+- 作用域（执行上下文）
+- this
+- new 关键字
+
+其中，es6 的重点内容为：
+
+- 普通使用，参考 [ECMAScript 6 入门](https://es6.ruanyifeng.com/)
+- 类
+- Promise, async, await
+- Generator
+- 箭头函数等
 

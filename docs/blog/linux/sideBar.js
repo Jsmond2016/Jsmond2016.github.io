@@ -1,6 +1,6 @@
 module.exports = [
 	 {
-      title: 'Linux模块',
+      title: 'Linux',
       collapsable: true,
       children: [
         'base/编程基础',
@@ -9,7 +9,7 @@ module.exports = [
       ]
     },
     {
-      title: 'vim模块',
+      title: 'vim',
       collapsable: true,
       children: [
         'vim/vim的使用',
@@ -17,7 +17,7 @@ module.exports = [
       ]
     },
     {
-      title: 'windows平台-前端开发技巧',
+      title: 'windows开发环境搭建',
       collapsable: true,
       children: [
         'windows/windows-前端技巧'

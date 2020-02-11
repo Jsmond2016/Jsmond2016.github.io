@@ -1,9 +1,9 @@
 module.exports = [
 	 {
-      title: '博客备忘',
+      title: 'Electron学习',
       collapsable: true,
       children: [
-        '',
+        'base/Electron开发音乐播放器',
       ]
     },
 ]
