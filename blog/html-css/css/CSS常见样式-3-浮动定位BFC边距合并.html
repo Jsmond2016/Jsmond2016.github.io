@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>CSS常见样式（三）——浮动定位BFC边距合并 | 黄同学</title>
+    <meta name="description" content="A simple and beautiful vuepress blog theme .">
+    <link rel="icon" href="/favicon.ico">
+  <link rel="manifest" href="/manifest.json">
+  <meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=no">
+    
+    <link rel="preload" href="/assets/css/0.styles.9081f2d2.css" as="style"><link rel="preload" href="/assets/js/app.030edb0b.js" as="script"><link rel="preload" href="/assets/js/4.7584c211.js" as="script"><link rel="preload" href="/assets/js/1.868075c3.js" as="script"><link rel="preload" href="/assets/js/43.0cc1ff10.js" as="script"><link rel="prefetch" href="/assets/js/10.b5ddafc3.js"><link rel="prefetch" href="/assets/js/100.552dabd5.js"><link rel="prefetch" href="/assets/js/101.a4cc5194.js"><link rel="prefetch" href="/assets/js/102.d7063e06.js"><link rel="prefetch" href="/assets/js/103.af983978.js"><link rel="prefetch" href="/assets/js/104.1a951dc1.js"><link rel="prefetch" href="/assets/js/105.6388597e.js"><link rel="prefetch" href="/assets/js/106.186d538d.js"><link rel="prefetch" href="/assets/js/107.0e5b1212.js"><link rel="prefetch" href="/assets/js/108.c1ef63b3.js"><link rel="prefetch" href="/assets/js/109.aecd9cea.js"><link rel="prefetch" href="/assets/js/11.a63f45e4.js"><link rel="prefetch" href="/assets/js/110.2728a88d.js"><link rel="prefetch" href="/assets/js/111.defea116.js"><link rel="prefetch" href="/assets/js/112.674116bd.js"><link rel="prefetch" href="/assets/js/113.4328a4fb.js"><link rel="prefetch" href="/assets/js/114.cd42a499.js"><link rel="prefetch" href="/assets/js/115.9c77f35b.js"><link rel="prefetch" href="/assets/js/116.2e0b8223.js"><link rel="prefetch" href="/assets/js/117.3ab96d58.js"><link rel="prefetch" href="/assets/js/118.9d37f28a.js"><link rel="prefetch" href="/assets/js/119.d8736b01.js"><link rel="prefetch" href="/assets/js/12.5d60dde7.js"><link rel="prefetch" href="/assets/js/120.91c48559.js"><link rel="prefetch" href="/assets/js/121.07c47c03.js"><link rel="prefetch" href="/assets/js/122.438d8bfe.js"><link rel="prefetch" href="/assets/js/13.154fc8e1.js"><link rel="prefetch" href="/assets/js/14.66f03368.js"><link rel="prefetch" href="/assets/js/15.9b79fcf8.js"><link rel="prefetch" href="/assets/js/16.d0247e44.js"><link rel="prefetch" href="/assets/js/17.6ba9c659.js"><link rel="prefetch" href="/assets/js/18.21e21b26.js"><link rel="prefetch" href="/assets/js/19.db9fd121.js"><link rel="prefetch" href="/assets/js/20.32786d90.js"><link rel="prefetch" href="/assets/js/21.d0b7ab04.js"><link rel="prefetch" href="/assets/js/22.09987a33.js"><link rel="prefetch" href="/assets/js/23.0dfba8e2.js"><link rel="prefetch" href="/assets/js/24.2c1702f2.js"><link rel="prefetch" href="/assets/js/25.c8da04f8.js"><link rel="prefetch" href="/assets/js/26.95039233.js"><link rel="prefetch" href="/assets/js/27.63044a3c.js"><link rel="prefetch" href="/assets/js/28.fb4b27f4.js"><link rel="prefetch" href="/assets/js/29.dda4d2e4.js"><link rel="prefetch" href="/assets/js/30.a68931d2.js"><link rel="prefetch" href="/assets/js/31.0e60c788.js"><link rel="prefetch" href="/assets/js/32.24e7bf42.js"><link rel="prefetch" href="/assets/js/33.ff623dc3.js"><link rel="prefetch" href="/assets/js/34.9999b40d.js"><link rel="prefetch" href="/assets/js/35.b3bea3e2.js"><link rel="prefetch" href="/assets/js/36.a2448b48.js"><link rel="prefetch" href="/assets/js/37.479b9805.js"><link rel="prefetch" href="/assets/js/38.2ff28a79.js"><link rel="prefetch" href="/assets/js/39.7606baf8.js"><link rel="prefetch" href="/assets/js/40.961e8148.js"><link rel="prefetch" href="/assets/js/41.802ec3ef.js"><link rel="prefetch" href="/assets/js/42.9a8374d3.js"><link rel="prefetch" href="/assets/js/44.69cfba2c.js"><link rel="prefetch" href="/assets/js/45.e2cddb65.js"><link rel="prefetch" href="/assets/js/46.8d614f4d.js"><link rel="prefetch" href="/assets/js/47.4d1470b5.js"><link rel="prefetch" href="/assets/js/48.f241ba7b.js"><link rel="prefetch" href="/assets/js/49.dca59c7f.js"><link rel="prefetch" href="/assets/js/5.08af2918.js"><link rel="prefetch" href="/assets/js/50.b1b1f377.js"><link rel="prefetch" href="/assets/js/51.9781c931.js"><link rel="prefetch" href="/assets/js/52.9d183f27.js"><link rel="prefetch" href="/assets/js/53.1da60d18.js"><link rel="prefetch" href="/assets/js/54.4ec08b48.js"><link rel="prefetch" href="/assets/js/55.ae1bd709.js"><link rel="prefetch" href="/assets/js/56.d56cf96d.js"><link rel="prefetch" href="/assets/js/57.227fa458.js"><link rel="prefetch" href="/assets/js/58.4b2e9a52.js"><link rel="prefetch" href="/assets/js/59.15174590.js"><link rel="prefetch" href="/assets/js/6.ecaa07ef.js"><link rel="prefetch" href="/assets/js/60.e59cffa4.js"><link rel="prefetch" href="/assets/js/61.4c9c543f.js"><link rel="prefetch" href="/assets/js/62.3c6dc73b.js"><link rel="prefetch" href="/assets/js/63.b2721aec.js"><link rel="prefetch" href="/assets/js/64.627526fa.js"><link rel="prefetch" href="/assets/js/65.2a7dacaa.js"><link rel="prefetch" href="/assets/js/66.61723638.js"><link rel="prefetch" href="/assets/js/67.7ef8d496.js"><link rel="prefetch" href="/assets/js/68.c173cda5.js"><link rel="prefetch" href="/assets/js/69.07208188.js"><link rel="prefetch" href="/assets/js/7.32d7af68.js"><link rel="prefetch" href="/assets/js/70.8e71d197.js"><link rel="prefetch" href="/assets/js/71.20a0ca92.js"><link rel="prefetch" href="/assets/js/72.02779864.js"><link rel="prefetch" href="/assets/js/73.62794670.js"><link rel="prefetch" href="/assets/js/74.eb62eaef.js"><link rel="prefetch" href="/assets/js/75.30c5ca65.js"><link rel="prefetch" href="/assets/js/76.a626f706.js"><link rel="prefetch" href="/assets/js/77.8a6eb6c9.js"><link rel="prefetch" href="/assets/js/78.8b2539b5.js"><link rel="prefetch" href="/assets/js/79.e02e046c.js"><link rel="prefetch" href="/assets/js/8.cc3eb95e.js"><link rel="prefetch" href="/assets/js/80.ceb49552.js"><link rel="prefetch" href="/assets/js/81.a94ad95d.js"><link rel="prefetch" href="/assets/js/82.7d1621c5.js"><link rel="prefetch" href="/assets/js/83.84defe94.js"><link rel="prefetch" href="/assets/js/84.8b291628.js"><link rel="prefetch" href="/assets/js/85.6c8c6001.js"><link rel="prefetch" href="/assets/js/86.c03271e6.js"><link rel="prefetch" href="/assets/js/87.4b7332bf.js"><link rel="prefetch" href="/assets/js/88.cee8b2c2.js"><link rel="prefetch" href="/assets/js/89.4d6cd2d9.js"><link rel="prefetch" href="/assets/js/9.276a0983.js"><link rel="prefetch" href="/assets/js/90.30d78272.js"><link rel="prefetch" href="/assets/js/91.861272f2.js"><link rel="prefetch" href="/assets/js/92.f9c64dbb.js"><link rel="prefetch" href="/assets/js/93.d8f807b3.js"><link rel="prefetch" href="/assets/js/94.2fad7e9e.js"><link rel="prefetch" href="/assets/js/95.8b7779be.js"><link rel="prefetch" href="/assets/js/96.fe19a942.js"><link rel="prefetch" href="/assets/js/97.cfc19557.js"><link rel="prefetch" href="/assets/js/98.2b59b5fa.js"><link rel="prefetch" href="/assets/js/99.b7501897.js"><link rel="prefetch" href="/assets/js/vendors~flowchart.9577011c.js">
+    <link rel="stylesheet" href="/assets/css/0.styles.9081f2d2.css">
+  </head>
+  <body>
+    <div id="app" data-server-rendered="true"><div><div class="theme-container"><div><header class="navbar"><div class="sidebar-button"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" viewBox="0 0 448 512" class="icon"><path fill="currentColor" d="M436 124H12c-6.627 0-12-5.373-12-12V80c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12z"></path></svg></div> <a href="/" class="home-link router-link-active"><img src="/head.jpg" alt="黄同学" class="logo"> <span class="site-name">黄同学</span></a> <div class="links"><div class="color-picker"><a class="color-button"><i class="iconfont reco-color"></i></a> <div class="color-picker-menu" style="display:none;"><div class="theme-options"><!----> <div class="dark-theme-options toggle-option"><label for="dark-theme-toggle">Enable Dark Theme?</label> <input id="dark-theme-toggle" type="checkbox" checked="checked"></div></div></div></div> <div class="search-box"><input aria-label="Search" autocomplete="off" spellcheck="false" value=""> <!----></div> <nav class="nav-links can-hide"><div class="nav-item"><div class="dropdown-wrapper"><a class="dropdown-title"><span class="title"><i class="iconfont undefined"></i>
+      前端技术
+    </span> <span class="arrow right"></span></a> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/blog/git/" class="nav-link"><i class="iconfont undefined"></i>
+  Git
+</a></li><li class="dropdown-item"><!----> <a href="/blog/linux/" class="nav-link"><i class="iconfont undefined"></i>
+  Linux
+</a></li><li class="dropdown-item"><!----> <a href="/blog/html-css/" class="nav-link router-link-active"><i class="iconfont undefined"></i>
+  html-css
+</a></li><li class="dropdown-item"><!----> <a href="/blog/javaScript/" class="nav-link"><i class="iconfont undefined"></i>
+  JavaScript
+</a></li><li class="dropdown-item"><!----> <a href="/blog/jQuery/" class="nav-link"><i class="iconfont undefined"></i>
+  jQuery
+</a></li><li class="dropdown-item"><!----> <a href="/blog/vue/" class="nav-link"><i class="iconfont undefined"></i>
+  Vue.js
+</a></li><li class="dropdown-item"><!----> <a href="/blog/react/" class="nav-link"><i class="iconfont undefined"></i>
+  React.js
+</a></li><li class="dropdown-item"><!----> <a href="/blog/node/" class="nav-link"><i class="iconfont undefined"></i>
+  Node.js
+</a></li><li class="dropdown-item"><!----> <a href="/blog/others/" class="nav-link"><i class="iconfont undefined"></i>
+  other
+</a></li><li class="dropdown-item"><!----> <a href="/blog/work/" class="nav-link"><i class="iconfont undefined"></i>
+  work
+</a></li></ul></div></div><div class="nav-item"><a href="/archives/" class="nav-link"><i class="iconfont undefined"></i>
+  Archives
+</a></div><div class="nav-item"><a href="/tag/" class="nav-link"><i class="iconfont reco-tag"></i>
+  Tag
+</a></div><div class="nav-item"><a href="/tags/" class="nav-link"><i class="iconfont undefined"></i>
+  Tags
+</a></div><div class="nav-item"><a href="/about/" class="nav-link"><i class="iconfont undefined"></i>
+  Resume
+</a></div><div class="nav-item"><a href="/friends/" class="nav-link"><i class="iconfont undefined"></i>
+  Friends
+</a></div> <!----></nav></div></header> <div class="sidebar-mask"></div> <aside class="sidebar"><nav class="nav-links"><div class="nav-item"><div class="dropdown-wrapper"><a class="dropdown-title"><span class="title"><i class="iconfont undefined"></i>
+      前端技术
+    </span> <span class="arrow right"></span></a> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/blog/git/" class="nav-link"><i class="iconfont undefined"></i>
+  Git
+</a></li><li class="dropdown-item"><!----> <a href="/blog/linux/" class="nav-link"><i class="iconfont undefined"></i>
+  Linux
+</a></li><li class="dropdown-item"><!----> <a href="/blog/html-css/" class="nav-link router-link-active"><i class="iconfont undefined"></i>
+  html-css
+</a></li><li class="dropdown-item"><!----> <a href="/blog/javaScript/" class="nav-link"><i class="iconfont undefined"></i>
+  JavaScript
+</a></li><li class="dropdown-item"><!----> <a href="/blog/jQuery/" class="nav-link"><i class="iconfont undefined"></i>
+  jQuery
+</a></li><li class="dropdown-item"><!----> <a href="/blog/vue/" class="nav-link"><i class="iconfont undefined"></i>
+  Vue.js
+</a></li><li class="dropdown-item"><!----> <a href="/blog/react/" class="nav-link"><i class="iconfont undefined"></i>
+  React.js
+</a></li><li class="dropdown-item"><!----> <a href="/blog/node/" class="nav-link"><i class="iconfont undefined"></i>
+  Node.js
+</a></li><li class="dropdown-item"><!----> <a href="/blog/others/" class="nav-link"><i class="iconfont undefined"></i>
+  other
+</a></li><li class="dropdown-item"><!----> <a href="/blog/work/" class="nav-link"><i class="iconfont undefined"></i>
+  work
+</a></li></ul></div></div><div class="nav-item"><a href="/archives/" class="nav-link"><i class="iconfont undefined"></i>
+  Archives
+</a></div><div class="nav-item"><a href="/tag/" class="nav-link"><i class="iconfont reco-tag"></i>
+  Tag
+</a></div><div class="nav-item"><a href="/tags/" class="nav-link"><i class="iconfont undefined"></i>
+  Tags
+</a></div><div class="nav-item"><a href="/about/" class="nav-link"><i class="iconfont undefined"></i>
+  Resume
+</a></div><div class="nav-item"><a href="/friends/" class="nav-link"><i class="iconfont undefined"></i>
+  Friends
+</a></div> <!----></nav>  <ul class="sidebar-links"><li><section class="sidebar-group collapsable depth-0"><p class="sidebar-heading"><span>HTML</span> <span class="arrow right"></span></p> <!----></section></li><li><section class="sidebar-group collapsable depth-0"><p class="sidebar-heading open"><span>CSS基础</span> <span class="arrow down"></span></p> <ul class="sidebar-links sidebar-group-items"><li><a href="/blog/html-css/css/CSS选择器.html" class="sidebar-link">CSS选择器</a></li><li><a href="/blog/html-css/css/CSS小知识.html" class="sidebar-link">CSS小知识</a></li><li><a href="/blog/html-css/css/CSS常见样式-1.html" class="sidebar-link">CSS常见样式</a></li><li><a href="/blog/html-css/css/CSS常见样式-2.html" class="sidebar-link">CSS常见样式（二）</a></li><li><a href="/blog/html-css/css/CSS常见样式-3-浮动定位BFC边距合并.html" class="active sidebar-link">CSS常见样式（三）——浮动定位BFC边距合并</a><ul class="sidebar-sub-headers"><li class="sidebar-sub-header"><a href="/blog/html-css/css/CSS常见样式-3-浮动定位BFC边距合并.html#_1-浮动元素有什么特征？对父容器、其他浮动元素、普通元素、文字分别有什么影响" class="sidebar-link">1. 浮动元素有什么特征？对父容器、其他浮动元素、普通元素、文字分别有什么影响?</a></li><li class="sidebar-sub-header"><a href="/blog/html-css/css/CSS常见样式-3-浮动定位BFC边距合并.html#_2-清除浮动指什么-如何清除浮动-两种以上方法" class="sidebar-link">2. 清除浮动指什么? 如何清除浮动? 两种以上方法</a></li><li class="sidebar-sub-header"><a href="/blog/html-css/css/CSS常见样式-3-浮动定位BFC边距合并.html#_3-有几种定位方式，分别是如何实现定位的，参考点是什么，使用场景是什么？" class="sidebar-link">3. 有几种定位方式，分别是如何实现定位的，参考点是什么，使用场景是什么？</a></li><li class="sidebar-sub-header"><a href="/blog/html-css/css/CSS常见样式-3-浮动定位BFC边距合并.html#_4-z-index-有什么作用-如何使用" class="sidebar-link">4. z-index 有什么作用? 如何使用?</a></li><li class="sidebar-sub-header"><a href="/blog/html-css/css/CSS常见样式-3-浮动定位BFC边距合并.html#_5-position-relative和负margin都可以使元素位置发生偏移-二者有什么区别" class="sidebar-link">5. position:relative和负margin都可以使元素位置发生偏移?二者有什么区别</a></li><li class="sidebar-sub-header"><a href="/blog/html-css/css/CSS常见样式-3-浮动定位BFC边距合并.html#_6-bfc-是什么？如何生成-bfc？bfc-有什么作用？举例说明" class="sidebar-link">6. BFC 是什么？如何生成 BFC？BFC 有什么作用？举例说明</a></li><li class="sidebar-sub-header"><a href="/blog/html-css/css/CSS常见样式-3-浮动定位BFC边距合并.html#_7-在什么场景下会出现外边距合并？如何合并？如何不让相邻元素外边距合并？给个父子外边距合并的范例" class="sidebar-link">7. 在什么场景下会出现外边距合并？如何合并？如何不让相邻元素外边距合并？给个父子外边距合并的范例</a></li></ul></li><li><a href="/blog/html-css/css/CSS学习资源推荐.html" class="sidebar-link">CSS学习资源推荐</a></li></ul></section></li><li><section class="sidebar-group collapsable depth-0"><p class="sidebar-heading"><span>CSS进阶</span> <span class="arrow right"></span></p> <!----></section></li></ul> </aside> <div><main class="page reco-hide"> <div class="page-title"><h1>CSS常见样式（三）——浮动定位BFC边距合并</h1> <hr> <div data-v-362e684e><i class="iconfont reco-account" data-v-362e684e><span data-v-362e684e>jsmond1016</span></i> <i class="iconfont reco-date" data-v-362e684e><span data-v-362e684e>11/24/2017</span></i> <span id="/blog/html-css/css/CSS%E5%B8%B8%E8%A7%81%E6%A0%B7%E5%BC%8F-3-%E6%B5%AE%E5%8A%A8%E5%AE%9A%E4%BD%8DBFC%E8%BE%B9%E8%B7%9D%E5%90%88%E5%B9%B6.html" data-flag-title="Your Article Title" class="leancloud-visitors" data-v-2e99e05a data-v-362e684e><i class="iconfont reco-eye" style="margin-right: .5rem" data-v-2e99e05a></i> <a class="leancloud-visitors-count" style="font-size:.9rem;font-weight:normal;color:#999;" data-v-2e99e05a></a></span> <i class="iconfont reco-tag tags" data-v-362e684e><span class="tag-item" data-v-362e684e>
+      c
+    </span><span class="tag-item" data-v-362e684e>
+      s
+    </span><span class="tag-item" data-v-362e684e>
+      s
+    </span></i></div></div> <div class="content__default"><h2 id="_1-浮动元素有什么特征？对父容器、其他浮动元素、普通元素、文字分别有什么影响"><a href="#_1-浮动元素有什么特征？对父容器、其他浮动元素、普通元素、文字分别有什么影响" class="header-anchor">#</a> 1. 浮动元素有什么特征？对父容器、其他浮动元素、普通元素、文字分别有什么影响?</h2> <blockquote><p>文档流：normal flow</p> <p>文档流指的是元素按照其在 HTML 中的位置顺序决定排布的过程，或者说在排布过程中将窗体自上而下分成一行行, 并在每行中按从左至右的顺序排放元素。</p> <p>非浮动的块级元素独占一行，行内元素不会独占一行。</p></blockquote> <p>（1）特征：设置浮动的元素会脱离文档流，同时它会自动变成块元素，会使元素向左或向右移动，其周围的元素也会重新排列。</p> <p>（2）影响：</p> <ul><li><p>父容器：无法再撑开父元素的宽高</p></li> <li><p>其他浮动元素：根据设置浮动的属性（左/右）而依次向左或向右排列。</p></li> <li><p>普通元素：分为两种情况
+a.根据HTML结构为例，在设置浮动元素  前面的元素不受影响，如下图的box1不受在他下面的元素的影响
+​
+b.根据HTML结构为例，在设置浮动元素  后面的元素无法感知到浮动元素的存在，如下图的box2无法感知到浮动元素的存在，依然按照正常的文档流排列。</p> <p>代码和效果如下：</p> <div class="language- extra-class"><pre class="language-text"><code>//CSS样式
+&lt;style&gt;
+  .box1{
+  width:200px;
+  height:200px;
+  border:1px solid black;
+  background:red;
+  
+}
+.box2{
+  width:200px;
+  height:200px;
+  border:1px solid black;
+  background:blue;
+  float:left;
+}
+.box3{
+  width:300px;
+  height:200px;
+  border:1px solid black;
+  background:green;
+}
+  &lt;/style&gt;
+  
+//HTML 结构
+&lt;div class=&quot;box1&quot;&gt;&lt;/div&gt;
+&lt;div class=&quot;box2&quot;&gt;&lt;/div&gt;
+&lt;div class=&quot;box3&quot;&gt;&lt;/div&gt;
+</code></pre></div><p><img src="https://i.loli.net/2017/11/24/5a1777ba7652c.png" alt=""></p></li> <li><p>文字：文字会自动识别浮动元素并且围绕浮动元素排布</p></li></ul> <p>如图：</p> <p><img src="https://i.loli.net/2017/11/24/5a17792503074.png" alt=""></p> <p>参考链接：<a href="http://www.joycesong.com/archives/204" target="_blank" rel="noopener noreferrer">CSS浮动、定位相关问题<svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></p> <h2 id="_2-清除浮动指什么-如何清除浮动-两种以上方法"><a href="#_2-清除浮动指什么-如何清除浮动-两种以上方法" class="header-anchor">#</a> 2. 清除浮动指什么? 如何清除浮动? 两种以上方法</h2> <p>（1）清除浮动：即让浮动元素继续浮动，但是清除浮动带来副作用，如下图：
+设置了图片浮动，但是无法将内容撑开，整个页面显得比较丑。
+<img src="https://i.loli.net/2017/11/24/5a183a82b5b5a.png" alt=""></p> <p>（2）清除浮动方法：给父容器添加 <code>clearfix</code></p> <ul><li><p><code>clear</code> 有3个属性：left / right / both ，分别为设置清除左侧 /右侧 / 两边/ 浮动的影响，常用的为 <code>clear: both</code>  ,通常是在浮动后面添加一个空div，设置它的清除浮动属性。，如图：</p> <blockquote><p>未设置清除浮动之前效果</p></blockquote> <p><img src="https://i.loli.net/2017/11/24/5a183f2a9a46d.png" alt=""></p> <blockquote><p>设置清除浮动以后效果</p></blockquote> <p><img src="https://i.loli.net/2017/11/24/5a183fa2eaec6.png" alt=""></p></li> <li><p>设置伪元素--推荐使用！</p> <div class="language-css extra-class"><pre class="language-css"><code><span class="token selector">//方法一
+.clearfix::after</span> <span class="token punctuation">{</span>
+	<span class="token property">content</span><span class="token punctuation">:</span> <span class="token string">''</span><span class="token punctuation">;</span>
+	<span class="token property">display</span><span class="token punctuation">:</span> block<span class="token punctuation">;</span>
+	<span class="token property">clear</span><span class="token punctuation">:</span> both<span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+<span class="token selector">//方法二
+.clearfix:after</span><span class="token punctuation">{</span>
+  <span class="token property">content</span><span class="token punctuation">:</span><span class="token string">&quot;&quot;</span><span class="token punctuation">;</span>
+  <span class="token property">display</span><span class="token punctuation">:</span> table<span class="token punctuation">;</span>
+  <span class="token property">clear</span><span class="token punctuation">:</span> both<span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+</code></pre></div></li> <li><p>给父元素设置浮动</p></li> <li><p><code>zoom</code></p> <div class="language- extra-class"><pre class="language-text"><code>.clearfix{
+  *zoom: 1;
+}
+</code></pre></div></li></ul> <h2 id="_3-有几种定位方式，分别是如何实现定位的，参考点是什么，使用场景是什么？"><a href="#_3-有几种定位方式，分别是如何实现定位的，参考点是什么，使用场景是什么？" class="header-anchor">#</a> 3. 有几种定位方式，分别是如何实现定位的，参考点是什么，使用场景是什么？</h2> <ul><li><p>定位方式: <code>position: xxx;</code></p> <ul><li><code>inherit</code>: 规定应该从父元素继承 position 的值</li> <li><code>static</code>: 默认值，没有定位。</li> <li><code>relative</code>: 生成 <strong>相对定位</strong> 的元素，相对于元素本身正常的位置进行定位</li> <li><code>absolute</code>:生成 <strong>绝对定位</strong> 的元素 ，相对于 static 定位以外的第一个祖先元素进行定位，元素的设置通过 <code>left,top,right,bottom</code> 属性进行规定。</li></ul> <blockquote><p>绝对定位与相对定位</p> <ul><li><p>相对定位可以看做是特殊的普通流定位，元素位置是相对于它在普通流中位置发生的变化，而绝对定位使元素的位置与文档流无关，也不占据文档流空间，普通流中的元素布局就像绝对定位中的元素不存在一样</p></li> <li><p>绝对定位的元素的位置是相对于位置距离较近的非<code>static</code>祖先元素位置决定的。如果元素没有已定位的祖先元素，那么他的位置就相对于初始包含块<code>html</code>来定位.，如图：
+当在 body中没有设置<code>position:relative</code> 时，红色部分的位置
+当在body找设置了<code>position:relative</code> 时，红色部分明显下移，所以判断绝对定位是相对于 <code>html</code> 元素来定位的。</p> <p><img src="https://i.loli.net/2017/11/26/5a1a80e5576ab.png" alt=""></p> <p>那么，问题来了，设置绝对定位是相对于已设置<code>position:relative</code>父元素的边框还是对应的<code>padding</code>和 <code>margin</code>定位呢？下面我们来验证：</p> <ul><li><code>top:auto;left:auto;</code>	
+当设置绝对定位为 <code>auto</code> 和没有设置属性（即默认情况下）的时候</li> <li><code>top:0 ;left: 0;</code> <img src="https://i.loli.net/2017/11/26/5a1a85175a289.png" alt=""></li> <li>小问题：当设置子元素为绝对定位时，它就收缩为内容的宽度，因此要给它设置宽度和高度。那么，如果给它的宽度设置为 <code>width:100%</code> ，则它的宽度为就是父元素内容的宽度，这个时候就要考虑自己的 <code>margin</code> ，<code>border</code>和父元素的<code>padding</code> ，否则会超出父元素的宽度。</li></ul></li> <li><p>因为绝对定位与文档流无关，所以绝对定位的元素可以覆盖页面上的其他元素，可以通过<code>z-idex</code>属性控制叠放顺序，<code>z-inde</code> 越高，元素位置越靠上。</p></li></ul></blockquote> <ul><li><code>fixed</code>: 生成绝对定位的元素，相对于浏览器窗口进行定位。元素的位置通过<code>left,top,right,bottom</code> 属性进行规定。</li> <li><code>sticky</code>:CSS3  新属性变现类似于 <code>position:relative</code> 和 <code>position:fixed</code> 的合体，在目标区域在屏幕中可见。</li></ul></li> <li><p>使用场景</p> <ul><li>相对定位：<code>relative</code>  通常和绝对定位结合使用</li> <li>绝对定位:<code>absolute</code> 通常用于设置水平和垂直居中；</li> <li>固定定位：<code>fixed</code>    适用于固定顶部导航条，广告弹窗等；</li></ul></li></ul> <h2 id="_4-z-index-有什么作用-如何使用"><a href="#_4-z-index-有什么作用-如何使用" class="header-anchor">#</a> 4. z-index 有什么作用? 如何使用?</h2> <ul><li><p>作用：属性设置元素的堆叠顺序。拥有更高堆叠顺序的元素总是会处于堆叠顺序较低的元素的前面</p></li> <li><p>使用方式：只有在使用了position并脱离了文档流（absolute、fixed）的情况下可以使用，其他情况使用z-index不起作用。</p> <blockquote><p><code>z-index: auto | number |inherit</code> : 默认 | 使用数字 | 继承父元素 <code>z-index</code> 的值。</p></blockquote> <p><img src="https://ooo.0o0.ooo/2017/11/26/5a1a8fa92cd4d.png" alt=""></p></li> <li><p>参考链接
+<a href="http://www.bijishequ.com/detail/242718" target="_blank" rel="noopener noreferrer">浮动、定位<svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></p></li></ul> <h2 id="_5-position-relative和负margin都可以使元素位置发生偏移-二者有什么区别"><a href="#_5-position-relative和负margin都可以使元素位置发生偏移-二者有什么区别" class="header-anchor">#</a> 5. <code>position:relative</code>和负<code>margin</code>都可以使元素位置发生偏移?二者有什么区别</h2> <p>区别：</p> <ul><li><code>position: relative</code>: 只对元素本身有作用，不影响其它的元素的位置</li> <li><code>负margin</code>: 会增加元素的外边距，相当于改变了元素的大小，会影响周围元素的位置</li></ul> <h2 id="_6-bfc-是什么？如何生成-bfc？bfc-有什么作用？举例说明"><a href="#_6-bfc-是什么？如何生成-bfc？bfc-有什么作用？举例说明" class="header-anchor">#</a> 6. BFC 是什么？如何生成 BFC？BFC 有什么作用？举例说明</h2> <ul><li><p>BFC: <a href="https://developer.mozilla.org/zh-CN/docs/Web/Guide/CSS/Block_formatting_context" target="_blank" rel="noopener noreferrer">Block Formatting Context,<svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a> 块级格式化上下文</p> <p>是Web页面的可视化CSS渲染出的一部分。它是块级盒布局出现的区域，也是浮动层元素进行交互的区域。</p></li> <li><p>特性：</p> <ul><li>会阻止垂直外边距（margin-top，margin-bottom）折叠</li></ul> <blockquote><p>（1）只有属于同一个BFC时，两个元素才有可能发生垂直 Margin 的重叠，这个包括相邻元素，嵌套元素，只要他们之间没有阻挡（例如边框、非空内容、padding 等）就会发生 Margin 重叠。
+（2）因此，要解决margin重叠的问题，只要然让他们不在同一个BFC就行了，但是对于两个相邻元素来说，意义不大，没有必要给他们加个外壳，但是对于嵌套元素就很有必要了，只要把父元素设置为BFC就可以了。这样子元素的margin就不会和父元素的margin发生重叠</p></blockquote> <ul><li><p>BFC不会重叠浮动元素</p></li> <li><p>BFC可以包含浮动</p></li> <li><p>也有不足</p> <blockquote><p>使用BFC进行浮动的时候会使父容器长度缩短，而且还有个重要缺陷——父容器解决了塌陷问题，那么父容器的父容器怎么办？overflow属性会影响滚动条和绝对定位的元素；position会改变元素的定位方式，这是我们所不希望的，display这几种定位方式依然没有解决低版本IE问题。</p></blockquote></li></ul></li> <li><p>哪些元素会生成BFC：</p> <ul><li>根元素</li> <li>float 不为 none</li> <li>position 为 absolute 或 fixed</li> <li>display 为 inline-block,table-cell ,table-caption ,flex ,inline-flex</li> <li>overflow 不为 visible</li></ul></li> <li><p>作用：</p> <ul><li><p>自适应两栏布局
+代码和效果如下</p> <div class="language- extra-class"><pre class="language-text"><code>&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;head&gt;
+  &lt;meta charset=&quot;utf-8&quot;&gt;
+  &lt;title&gt;JS Bin&lt;/title&gt;
+  &lt;style&gt;
+  .child1{
+    width:200px;
+    height:200px;
+    background: red;
+    float:left;
+}
+  .child2{
+    width:210px;
+    height:200px;
+    background: blue;
+    overflow:hidden;
+  }
+
+  &lt;/style&gt;
+&lt;/head&gt;
+&lt;body&gt;
+&lt;div class=&quot;father&quot;&gt;
+  &lt;div class=&quot;child1&quot;&gt;&lt;/div&gt;
+  &lt;div class=&quot;child2&quot;&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+</code></pre></div><p>在没有生成BFC时效果如下，两个块元素会重叠
+<img src="https://i.loli.net/2017/11/25/5a19241668fc6.png" alt=""></p> <p>在添加 <code>overflow:hidden</code> 时，形成了BFC，消除了影响，效果如下
+<img src="https://i.loli.net/2017/11/25/5a19248515b5e.png" alt=""></p></li> <li><p>清除内部浮动,效果上图可见</p></li> <li><p>防止垂直方向上的 margin 重叠。
+<img src="https://i.loli.net/2017/11/25/5a192c77bd318.png" alt=""></p> <p><img src="https://i.loli.net/2017/11/25/5a192c94b7b45.png" alt=""></p> <p>通过上面2张图可以看出，下面div设置 margin 无效，被重叠</p> <p><img src="https://i.loli.net/2017/11/25/5a192ce5e8dd0.png" alt=""></p> <p>在中间添加个div.wrap 设置其<code>overflow:hidden</code> 即使两个div.child 不在同一个BFC中，可阻止垂直边距合并。</p></li></ul></li></ul> <p>参考</p> <p><a href="https://www.w3ctech.com/topic/865" target="_blank" rel="noopener noreferrer">前端精选文摘：BFC 神奇背后的原理（转）<svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></p> <h2 id="_7-在什么场景下会出现外边距合并？如何合并？如何不让相邻元素外边距合并？给个父子外边距合并的范例"><a href="#_7-在什么场景下会出现外边距合并？如何合并？如何不让相邻元素外边距合并？给个父子外边距合并的范例" class="header-anchor">#</a> 7. 在什么场景下会出现外边距合并？如何合并？如何不让相邻元素外边距合并？给个父子外边距合并的范例</h2> <ul><li>合并外边距的场景：
+<ul><li>相邻的兄弟姐妹元素</li> <li>块元素与其第一个 / 最后一个元素</li> <li>空块元素</li></ul></li> <li>合并方式：垂直方向上两个块元素的中间边距合并。如图：
+<img src="https://ooo.0o0.ooo/2017/11/26/5a1a972d5fd00.png" alt=""></li> <li>如何阻止相邻元素外边距合并
+<ul><li>在其中添加一个空的div，阻止他们在同一个BFC</li></ul></li></ul> <p><img src="https://i.loli.net/2017/11/25/5a192ce5e8dd0.png" alt=""></p> <ul><li>处于静态流的元素会发生合并，所以设置 <code>float</code> 和 <code>position:xxx</code>都不会发合并。</li> <li>设置为 <code>inline-block</code> 也不会发生合并。</li></ul> <p>参考链接：</p> <p><a href="https://developer.mozilla.org/zh-CN/docs/Web/CSS/CSS_Box_Model/Mastering_margin_collapsing" target="_blank" rel="noopener noreferrer">外边距合并-MDN<svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></p> <p><a href="https://juejin.im/post/5965c46ef265da6c2518f5ec" target="_blank" rel="noopener noreferrer">前端面试必备——外边距合并<svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></p></div> <!----> <footer class="page-edit"><!----> <div class="last-updated"><span class="prefix">Last Updated: </span> <span class="time">9/3/2019, 2:32:06 PM</span></div></footer> <div class="page-nav"><p class="inner"><span class="prev">
+        ←
+        <a href="/blog/html-css/css/CSS常见样式-2.html" class="prev">
+          CSS常见样式（二）
+        </a></span> <span class="next"><a href="/blog/html-css/css/CSS学习资源推荐.html">
+          CSS学习资源推荐
+        </a>
+        →
+      </span></p></div> </main> <div class="valine-wrapper" data-v-5029e45b><div id="valine" data-v-5029e45b></div></div></div> <div class="back-to-ceiling" style="right:1rem;bottom:6rem;width:2.5rem;height:2.5rem;border-radius:.25rem;line-height:2.5rem;background-color:rgba(231, 234, 241,.5);display:none;" data-v-cd623d78 data-v-cd623d78><i class="iconfont reco-up" data-v-cd623d78></i></div></div></div></div><div class="global-ui"><SWUpdatePopup></SWUpdatePopup></div></div>
+    <script src="/assets/js/app.030edb0b.js" defer></script><script src="/assets/js/4.7584c211.js" defer></script><script src="/assets/js/1.868075c3.js" defer></script><script src="/assets/js/43.0cc1ff10.js" defer></script>
+  </body>
+</html>
